@@ -1,12 +1,14 @@
 Gem::Specification.new do |s|
   s.name        = 'descriptive_statistics'
-  s.version     = '2.5.1'
-  s.homepage    = 'https://github.com/thirtysixthspan/descriptive_statistics'
+  s.version     = '2.6.0'
+  s.homepage    = 'https://github.com/jsmestad/descriptive_statistics'
   s.summary     = 'Descriptive Statistics'
   s.description = 'Adds descriptive statistics methods to Enumerable module for use on collections or Numeric data'
   s.authors     = ['Derrick Parkhurst', 'Gregory Brown', 'Daniel Farrell', 'Graham Malmgren', 'Guy Shechter', 'Charlie Egan']
   s.email       = 'derrick.parkhurst@gmail.com'
   s.files       = Dir['lib/**/**/*']
   s.license     = "MIT"
+
+  s.required_ruby_version = '>= 2.4.0'
 end
 
